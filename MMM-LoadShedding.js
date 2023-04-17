@@ -44,8 +44,8 @@ Module.register("MMM-LoadShedding", {
      * This method is asynchronous and uses await to wait for the response from the API endpoint.
      */
     async getData() {
-        const urlApi = "http://192.168.3.91:8080/cors?url=https://developer.sepush.co.za/business/2.0/area?id=capetown-11-plumstead&test=current";
-//        const urlApi = "http://192.168.3.91:8080/cors?url=https://developer.sepush.co.za/business/2.0/area?id=capetown-11-plumstead";
+//        const urlApi = "http://192.168.3.91:8080/cors?url=https://developer.sepush.co.za/business/2.0/area?id=capetown-11-plumstead&test=current";
+        const urlApi = "http://192.168.3.91:8080/cors?url=https://developer.sepush.co.za/business/2.0/area?id=capetown-11-plumstead";
 
         let retry = true; // Initialize retry flag to true
 
