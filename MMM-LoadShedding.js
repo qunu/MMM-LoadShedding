@@ -89,7 +89,7 @@ Module.register("MMM-LoadShedding", {
     getDom() {
         // Create a wrapper div element and set its class name to the class specified in the config or a default class if not provided.
         const wrapper = document.createElement("div");
-        wrapper.className = this.config.classes || "thin xlarge bright pre-line";
+        wrapper.className = this.config.classes || "thin bright pre-line";
 
         // Return the wrapper if dataRequest is not available.
         if (!this.dataRequest) {
